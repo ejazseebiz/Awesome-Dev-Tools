@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#">
+
+<!-- Mirrored from css3button.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Mar 2016 19:10:17 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Seiji Uchiyama">
+<meta name="description" content="CSS3 Button Generator">
+<meta name="title" content="CSS3 Button Generator">
+<meta name="copyright" content="Copyright (c) volume2, All right reserved.">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="js/colorpicker/colorpicker.css">
+<link rel="stylesheet" type="text/css" href="js/colorpicker/layout.css">
+<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/css/ie.css">
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/colorpicker/colorpicker.js"></script>
+<script type="text/javascript" src="js/jquery.spin.js"></script>
+<script type="text/javascript" src="js/jquery.color.js"></script>
+<script type="text/javascript" src="js/jquery.common.min.js"></script>
+<title>CSS3 Button Generator</title>
+<meta property="og:title" content="CSS3 Button Generator">
+<meta property="og:description" content="CSS3ボタンジェネレーター" />
+<meta name="mixi-check-robots" content="noimage" />
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-567914-23']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="../apis.google.com/js/plusone.js"></script>
+</head>
+
+<body id="home" class="">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="wrapper">
+
+<header>
+<h1 id="logo"><a href="index.html">CSS3 Button Generator</a></h1>
+<nav>
+<ul id="nav">
+	<li id="homeBtn"><a href="index.html">home</a></li>
+	<li id="showcaseBtn"><a href="showcase/index.html">showcase</a></li>
+	<li id="randomBtn"><a href="showcase/random.html">random</a></li>
+	<li id="presetBtn"><a href="showcase/preset.html">preset</a></li>
+</ul>
+</nav>
+</header>
+
+<div id="contents">
+<div id="main">
+<div id="preview">
+<button type="button" class="css3button">CSS3 BUTTON</button>
+</div>
+<!-- /#preview -->
+<style type="text/css" id="previewCSS">
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#42aaff 0%,
+		#003366);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#42aaff),
+		to(#003366));
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #003366;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(000,000,000,0.3)
+}
+</style>
+
+<form enctype="multipart/form-data" action="http://css3button.net/libs/add.entry.php" method="post" id="entryForm">
+<input type="hidden" name="bg-color1" value="42aaff" id="bg-color1-input">
+<input type="hidden" name="bg-color2" value="ffffff" id="bg-color2-input">
+<input type="hidden" name="bg-color3" value="ffffff" id="bg-color3-input">
+<input type="hidden" name="bg-color4" value="ffffff" id="bg-color4-input">
+<input type="hidden" name="bg-color5" value="003366" id="bg-color5-input">
+<input type="hidden" name="border-color" value="003366" id="border-color-input">
+<input type="hidden" name="shadow-color" value="000000" id="shadow-color-input">
+<input type="hidden" name="shadowinset-color" value="ffffff" id="shadowinset-color-input">
+<input type="hidden" name="font-color" value="ffffff" id="font-color-input">
+<input type="hidden" name="text-shadow1-color" value="000000" id="text-shadow1-color-input">
+<input type="hidden" name="text-shadow2-color" value="ffffff" id="text-shadow2-color-input">
+
+<div class="config config1">
+
+<div id="configBg" class="configBox">
+<h2>background</h2>
+<ul class="forms bg">
+	<li>
+		<div id="bg-color1" class="colorSelector"><div style="background-color:#42aaff"></div></div>
+	</li>
+	<li class="mini spin">
+		<input type="checkbox" name="bg-color2-check" value="1" id="bg-color2-check" class="check">
+		<div id="bg-color2" class="colorSelector"><div style="background-color:#ffffff"></div></div>
+		<input type="text" name="bg-color2-position" value="25" class="spin px" readonly>
+		<div class="mask"></div>
+	</li>
+	<li class="mini spin">
+		<input type="checkbox" name="bg-color3-check" value="1" id="bg-color3-check" class="check">
+		<div id="bg-color3" class="colorSelector"><div style="background-color:#ffffff"></div></div>
+		<input type="text" name="bg-color3-position" value="50" class="spin px" readonly>
+		<div class="mask"></div>
+	</li>
+	<li class="mini spin">
+		<input type="checkbox" name="bg-color4-check" value="1" id="bg-color4-check" class="check">
+		<div id="bg-color4" class="colorSelector"><div style="background-color:#ffffff"></div></div>
+		<input type="text" name="bg-color4-position" value="75" class="spin px" readonly>
+		<div class="mask"></div>
+	</li>
+	<li>
+		<div id="bg-color5" class="colorSelector"><div style="background-color:#003366"></div></div>
+	</li>
+</ul>
+</div>
+<!-- /#configBg -->
+
+<div id="configBorder" class="configBox">
+<h2>border / padding</h2>
+<ul class="forms border">
+	<li><div id="border-color" class="colorSelector hex"><div style="background-color:#003366"></div></div></li>
+	<li class="spin"><input type="text" name="border-width" value="1" class="spin px4" readonly> px</li>
+	<li class="spin"><input type="text" name="border-radius" value="10" class="spin px" readonly> px</li>
+	<li class="spin"><input type="text" name="padding-top" value="10" class="spin px3" readonly> px</li>
+	<li class="spin"><input type="text" name="padding-left" value="20" class="spin px3" readonly> px</li>
+</ul>
+</div>
+<!-- /#configBorder -->
+
+<div id="configShadow" class="configBox">
+<h2>drop shadow</h2>
+<ul class="forms shadow">
+	<li><div id="shadow-color" class="colorSelector rgb"><div style="background-color:#000000"></div></div></li>
+	<li class="spin"><input type="text" name="shadow-opacity" value="0.5" class="spin opacity" readonly></li>
+	<li class="spin"><input type="text" name="shadow-left" value="0" class="spin px2" readonly> px</li>
+	<li class="spin"><input type="text" name="shadow-top" value="1" class="spin px2" readonly> px</li>
+	<li class="spin"><input type="text" name="shadow-size" value="3" class="spin px" readonly> px</li>
+</ul>
+</div>
+<!-- /#configShadow -->
+
+<div id="configShadowinset" class="configBox">
+<h2>inner shadow</h2>
+<ul class="forms shadow">
+	<li><div id="shadowinset-color" class="colorSelector"><div style="background-color:#ffffff"></div></div></li>
+	<li class="spin"><input type="text" name="shadowinset-opacity" value="0.5" class="spin opacity" readonly></li>
+	<li class="spin"><input type="text" name="shadowinset-left" value="0" class="spin px2" readonly> px</li>
+	<li class="spin"><input type="text" name="shadowinset-top" value="0" class="spin px2" readonly> px</li>
+	<li class="spin"><input type="text" name="shadowinset-size" value="1" class="spin px" readonly> px</li>
+</ul>
+</div>
+<!-- /#configShadowinset -->
+
+</div>
+<!-- /.config -->
+
+<div class="config config2">
+
+<div id="configText" class="configBox">
+<h2>text font</h2>
+<ul class="forms font">
+	<li><div id="font-color" class="colorSelector"><div style="background-color:#ffffff"></div></div></li>
+	<li class="spin"><input type="text" name="font-size" value="14" class="spin px3" readonly> px</li>
+</ul>
+</div>
+<!-- /#configText -->
+
+<div id="configTextShadow1" class="configBox">
+<h2>text shadow 1</h2>
+<ul class="forms shadow">
+	<li><div id="text-shadow1-color" class="colorSelector rgb"><div style="background-color:#000000"></div></div></li>
+	<li class="spin"><input type="text" name="text-shadow1-opacity" value="0.7" class="spin opacity" readonly></li>
+	<li class="spin"><input type="text" name="text-shadow1-left" value="0" class="spin px2" readonly> px</li>
+	<li class="spin"><input type="text" name="text-shadow1-top" value="-1" class="spin px2" readonly> px</li>
+	<li class="spin"><input type="text" name="text-shadow1-size" value="0" class="spin px" readonly> px</li>
+</ul>
+</div>
+<!-- /#configtextshadow1 -->
+
+<div id="configTextShadow2" class="configBox">
+<h2>text shadow 2</h2>
+<ul class="forms shadow">
+	<li>
+		<div id="text-shadow2-color" class="colorSelector rgb"><div style="background-color:#ffffff"></div></div>
+	</li>
+	<li class="spin">
+		<input type="text" name="text-shadow2-opacity" value="0.3" class="spin opacity" readonly>
+	</li>
+	<li class="spin">
+		<input type="text" name="text-shadow2-left" value="0" class="spin px2" readonly> px
+	</li>
+	<li class="spin">
+		<input type="text" name="text-shadow2-top" value="1" class="spin px2" readonly> px
+	</li>
+	<li class="spin">
+		<input type="text" name="text-shadow2-size" value="0" class="spin px" readonly> px
+	</li>
+</ul>
+</div>
+<!-- /#configtextshadow2 -->
+
+<div id="saveBtn">
+<div id="dummyBtn">save+share</div>
+</div>
+<!-- /#saveBtn -->
+
+</div>
+<!-- /.config -->
+
+</form>
+
+<div class="ads468x15">
+  <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+  <!-- css3button.net LU 468x15 -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:468px;height:15px"
+       data-ad-client="ca-pub-1945146593833548"
+       data-ad-slot="1730914891"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+<!-- /.ads468x15 -->
+
+<div class="ads468x60">
+  <script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+  <!-- css3button.net 468x60 -->
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:468px;height:60px"
+       data-ad-client="ca-pub-1945146593833548"
+       data-ad-slot="4038579697"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+<!-- /.ads468x60 -->
+
+<div class="sns01 snsHome">
+	<div class="sns-twitter">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://css3button.net/" data-text="CSS3 Button Generator" data-lang="ja">ツイート</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
+	<div class="sns-hatebu">
+		<a href="http://b.hatena.ne.jp/entry/http://css3button.net/" class="hatena-bookmark-button" data-hatena-bookmark-title="CSS3 Button Generator" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="../b.st-hatena.com/images/entry-button/button-only%402x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="../b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+	</div>
+	<div class="sns-facebook">
+		<div class="fb-like" data-href="http://css3button.net/" data-width="110" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+	</div>
+	<div class="sns-gplus">
+		<div class="g-plusone" data-size="medium"></div>
+	</div>
+</div>
+<!-- /.sns01 -->
+
+</div>
+<!-- /#main -->
+
+<div id="side">
+
+<div id="Ads">
+<script async src="../pagead2.googlesyndication.com/pagead/js/f.txt"></script>
+<!-- css3button.net 336x280 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-1945146593833548"
+     data-ad-slot="1224714097"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<div id="htmlCode">
+<h2>HTML CODE</h2>
+<input id="htmlcopy" class="code" value="&lt;button type=&quot;button&quot; name=&quot;&quot; value=&quot;&quot; class=&quot;css3button&quot;&gt;submit&lt;/button&gt;">
+</div>
+<!-- /#htmlCode -->
+
+<div id="cssCode">
+<h2>CSS CODE</h2>
+<pre id="code" class="code">
+button.css3button {
+	<span class="property">font-family</span>: Arial, Helvetica, sans-serif;
+	<span class="property">font-size</span>: <span class="c font-size">14</span>px;
+	<span class="property">color</span>: #<span class="c font-color">ffffff</span>;
+	<span class="property">padding</span>: <span class="s padding-top">10</span>px <span class="s padding-left">20</span>px;
+	<span class="property">background</span>: <span class="property">-moz-linear-gradient</span>(
+		top,
+		#<span class="c bg-color1">42aaff</span> 0%,<span id="bg-color2-moz-flag"><span>
+		#<span class="c bg-color2">ffffff</span> <span class="p bg-color2-position">25</span>%,</span></span><span id="bg-color3-moz-flag"><span>
+		#<span class="c bg-color3">ffffff</span> <span class="p bg-color3-position">50</span>%,</span></span><span id="bg-color4-moz-flag"><span>
+		#<span class="c bg-color4">ffffff</span> <span class="p bg-color4-position">75</span>%,</span></span>
+		#<span class="c bg-color5">003366</span>);
+	<span class="property">background</span>: <span class="property">-webkit-gradient</span>(
+		linear, left top, left bottom,
+		from(#<span class="c bg-color1">42aaff</span>),<span id="bg-color2-webkit-flag"><span>
+		color-stop(<span class="p">0.<span class="bg-color2-position">25</span></span>, #<span class="c bg-color2">ffffff</span>),</span></span><span id="bg-color3-webkit-flag"><span>
+		color-stop(<span class="p">0.<span class="bg-color3-position">50</span></span>, #<span class="c bg-color3">ffffff</span>),</span></span><span id="bg-color4-webkit-flag"><span>
+		color-stop(<span class="p">0.<span class="bg-color4-position">75</span></span>, #<span class="c bg-color4">ffffff</span>),</span></span>
+		to(#<span class="c bg-color5">003366</span>));
+	<span class="property">-moz-border-radius</span>: <span class="s border-radius">10</span>px;
+	<span class="property">-webkit-border-radius</span>: <span class="s border-radius">10</span>px;
+	<span class="property">border-radius</span>: <span class="s border-radius">10</span>px;
+	<span class="property">border</span>: <span class="s border-width">1</span>px solid #<span class="c border-color">003366</span>;
+	<span class="property">-moz-box-shadow</span>:
+		<span class="s shadow-left">0</span>px <span class="s shadow-top">1</span>px <span class="s shadow-size">3</span>px rgba(<span class="c shadow-color">000,000,000</span>,<span class="a shadow-opacity">0.5</span>),
+		inset <span class="s shadowinset-left">0</span>px <span class="s shadowinset-top">0</span>px <span class="s shadowinset-size">1</span>px rgba(<span class="c shadowinset-color">255,255,255</span>,<span class="a shadowinset-opacity">0.5</span>);
+	<span class="property">-webkit-box-shadow</span>:
+		<span class="s shadow-left">0</span>px <span class="s shadow-top">1</span>px <span class="s shadow-size">3</span>px rgba(<span class="c shadow-color">000,000,000</span>,<span class="a shadow-opacity">0.5</span>),
+		inset <span class="s shadowinset-left">0</span>px <span class="s shadowinset-top">0</span>px <span class="s shadowinset-size">1</span>px rgba(<span class="c shadowinset-color">255,255,255</span>,<span class="a shadowinset-opacity">0.5</span>);
+	<span class="property">box-shadow</span>:
+		<span class="s shadow-left">0</span>px <span class="s shadow-top">1</span>px <span class="s shadow-size">3</span>px rgba(<span class="c shadow-color">000,000,000</span>,<span class="a shadow-opacity">0.5</span>),
+		inset <span class="s shadowinset-left">0</span>px <span class="s shadowinset-top">0</span>px <span class="s shadowinset-size">1</span>px rgba(<span class="c shadowinset-color">255,255,255</span>,<span class="a shadowinset-opacity">0.5</span>);
+	<span class="property">text-shadow</span>:
+		<span class="s text-shadow1-left">0</span>px <span class="s text-shadow1-top">-1</span>px <span class="s text-shadow1-size">0</span>px rgba(<span class="c text-shadow1-color">000,000,000</span>,<span class="a text-shadow1-opacity">0.7</span>),
+		<span class="s text-shadow2-left">0</span>px <span class="s text-shadow2-top">1</span>px <span class="s text-shadow2-size">0</span>px rgba(<span class="c text-shadow2-color">255,255,255</span>,<span class="a text-shadow2-opacity">0.3</span>);
+}
+</pre>
+<textarea name="" id="csscopy" class="code" cols="30" rows="10"></textarea>
+</div>
+<!-- /#cssCode -->
+
+
+<div id="codeCache">
+<div id="bg-color2-moz-cache"></div>
+<div id="bg-color3-moz-cache"></div>
+<div id="bg-color4-moz-cache"></div>
+<div id="bg-color2-webkit-cache"></div>
+<div id="bg-color3-webkit-cache"></div>
+<div id="bg-color4-webkit-cache"></div>
+</div>
+<!-- /#cache -->
+
+</div>
+<!-- /#side -->
+</div>
+<!-- /#contents -->
+
+</div>
+<!-- /#wrapper -->
+
+<footer>
+<div class="inner">
+<div class="line">
+<div id="about">
+<h2>about me</h2>
+<dl>
+	<dt>Name</dt>
+	<dd>Seiji Uchiyama</dd>
+	<dt>Job</dt>
+	<dd>Web Designer</dd>
+	<dt>Location</dt>
+	<dd>Miyazaki, Japan</dd>
+	<dt>Contact</dt>
+	<dd><a href="http://twitter.com/seiji_vol2" target="_blank">Twitter</a> <a href="http://www.facebook.com/volume2" target="_blank">Facebook</a> <a href="https://plus.google.com/u/0/109116004026060035059" target="_blank">Google+</a></dd>
+</dl>
+<img src="img/banner/about.png" width="50" height="50" alt="profile icon" class="icon" />
+</div>
+<div id="banner">
+<h2>other site</h2>
+<ul id="bannerList">
+	<li><a href="http://volume2.jp/" target="_blank"><img src="img/banner/volume2.png" width="140" height="50" alt="volume2" /></a></li>
+	<li><a href="http://web-selection.com/" target="_blank"><img src="img/banner/webselection.png" width="140" height="50" alt="ウェブセレクション" /></a></li>
+	<li><a href="http://designsozai.com/" target="_blank"><img src="img/banner/designsozai.png" width="140" height="50" alt="デザイン素材.com" /></a></li>
+	<li><a href="http://kakakule.com/" target="_blank"><img src="img/banner/kakakule.png" width="140" height="50" alt="カカクル" /></a></li>
+</ul>
+</div>
+</div>
+
+<div id="sns">
+  <div class="sns01">
+  	<div class="sns-twitter">
+  		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://css3button.net/" data-text="CSS3 Button Generator" data-lang="ja">ツイート</a>
+  		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  	</div>
+  	<div class="sns-hatebu">
+  		<a href="http://b.hatena.ne.jp/entry/http://css3button.net/" class="hatena-bookmark-button" data-hatena-bookmark-title="CSS3 Button Generator" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="../b.st-hatena.com/images/entry-button/button-only%402x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="../b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  	</div>
+  	<div class="sns-facebook">
+  		<div class="fb-like" data-href="http://css3button.net/" data-width="110" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+  	</div>
+  	<div class="sns-gplus">
+  		<div class="g-plusone" data-size="medium"></div>
+  	</div>
+  </div>
+  <!-- /.sns01 -->
+</div>
+
+<p id="copyright">Copyright &copy; <a href="index.html">CSS3 Button Generator</a>. All Rights Reserved. powered by <a href="http://volume2.jp/" target="_blank">volume2</a>.</p>
+
+</div>
+</footer>
+
+</body>

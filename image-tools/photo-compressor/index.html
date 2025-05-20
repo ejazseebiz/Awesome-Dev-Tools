@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Image Resizer</title>
+
+    <!-- Favicon -->
+      <link rel="icon" type="image/icon" href="favicon.ico">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+<body>
+    <!-- header -->
+    <h2>Image Resizer using Javascript <i class="fa-brands fa-square-js"></i></h2>
+    <header>
+        <div class="version">
+            <small>
+                <a href="https://github.com/Erik-Varga/js-image-resizer/" target="_blank">Source Code: </a> 
+            v1.0
+            </small>
+            &nbsp;
+        </div>
+        <div>
+            <small>
+                <a href="https://github.com/Erik-Varga" target="_blank">&copy; <script>document.write(new Date().getFullYear())</script> Erik Varga | Web Developer <i class="fa-brands fa-github"></i></a>
+            </small>
+        </div>
+    </header>
+
+    <!-- container -->
+    <div class="container">
+        <div class="input">
+            <button class="upload">Upload</button>
+            <ul class="metadata">
+                <li class="item">Name: <span></span></li>
+                <li class="item">Dimension: <span></span></li>
+                <li class="item">Size: <span></span></li>
+            </ul>
+        </div>
+        <div class="output">
+            <button class="download">Download</button>
+            <ul class="metadata">
+                <li class="item">Compressed: <span></span></li>
+                <li class="item">Dimension: <span></span></li>
+                <li class="item">Size: <span></span></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- progress -->
+    <div class="progress">
+        <div class="track"></div>
+        <input type="range" class="input-value" min="10" value="30" max="99" step="any">
+    </div>
+
+    <div id="fullName">
+        <p id="imgAlt"></p>
+    </div>
+
+    <!-- refresh -->
+    <div><button class="refresh" onClick="window.location.reload();"><i class="fa-solid fa-arrows-rotate"></i></button></div>
+
+    <!-- preview -->
+    <div class="preview-container">
+        <input type="range" id="slider-input" min="0" max="100" step="any">
+        <div class="compressed">Compressed</div>
+        <div class="original">Original</div>
+        <div class="bottom">
+            <img src="" alt="">
+        </div>
+        <div class="top">
+            <img src="" alt="">
+        </div>
+    </div>
+    <input type="file" id="hidden-button" style="display: none;" accept="image/*">
+
+<script src="script.js"></script>
+<script src="compressor.js"></script>
+</body>
+</html>

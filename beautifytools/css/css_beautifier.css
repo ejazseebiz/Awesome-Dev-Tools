@@ -1,0 +1,37 @@
+div.h_text {
+	text-align: center;
+	font-size: 18px;
+	padding: 5px;
+	position: relative;
+}
+
+div.h_text button {
+	padding: 0.25rem 0.5rem;
+}
+
+#code1,
+#code2 {
+	height: 800px;
+	font-size: 14px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.07);
+}
+
+.ui-resizable-s {
+	height: 10px;
+}
+
+@media (max-width : 980px) {
+	div.h_text {
+		text-align: left;
+	}
+
+	#code1,
+	#code2 {
+		height: 400px;
+	}
+
+	#max_code1,
+	#max_code2 {
+		display: none;
+	}
+}

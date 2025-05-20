@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51707564.css",
+    "main.js": "/static/js/main.7cfd516a.js",
+    "static/media/ding.wav": "/static/media/ding.2aca5f35d51e7fefb3e2.wav",
+    "static/media/click.mp3": "/static/media/click.741cebcbf6a50a5633a7.mp3",
+    "static/media/clack.mp3": "/static/media/clack.d465fb8762c8e262142e.mp3",
+    "index.html": "/index.html",
+    "main.51707564.css.map": "/static/css/main.51707564.css.map",
+    "main.7cfd516a.js.map": "/static/js/main.7cfd516a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51707564.css",
+    "static/js/main.7cfd516a.js"
+  ]
+}

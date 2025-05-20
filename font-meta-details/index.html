@@ -1,0 +1,227 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>fontname Demo</title>
+
+	<link rel="stylesheet" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<script type="text/javascript" src="index.js"></script>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: 'Roboto', sans-serif;
+			background-color: #ceedf4;
+			line-height: 1.6em;
+			color: rgb(51, 51, 51);
+		}
+		table {
+			margin: 1em 0;
+			border: 1px solid #ccc;
+			border-collapse: collapse;
+		}
+		td {
+			padding: 8px 10px;
+			border: 1px solid #ccc;
+		}
+		h1 {
+			font-size: 3em;
+			margin: 0;
+			padding: 0.7em;
+			color:#ffffff;
+			text-align:center;
+			background: linear-gradient(rgb(84, 180, 235), rgb(47, 164, 231));
+		}
+		.intro {
+			margin: 1em 0 0;
+			font-size: 1.75rem;
+			text-align: center;
+		}
+		.main {
+			margin:0 auto;
+			max-width: 50em;
+			
+			padding:0.5em 2em;
+			background-color: #ffffff;
+		}
+		#error {
+			margin-top: 1em;
+			text-align: center;
+			color: #bd2c2c;
+		}
+	</style>
+</head>
+<body>
+	<h1>fontname demo</h1>
+	<div class="main">
+		<p class="intro"><b>Drag and drop a font!</b></p>
+		<p id="error"></p>
+		<table id="fontmeta"></table>
+	</div>
+	
+	<input type="file" id="myFile">
+
+	<script>
+
+/************************* METHOD 1 ****************************/
+
+
+
+function readFontFile(flname) {
+    var myFile = flname;
+    var r = new FileReader();
+    r.addEventListener('load', function (e) {
+				const metaArea = document.getElementById('fontmeta');
+				const error = document.getElementById('error');
+				let fontMeta;
+				try {
+					fontMeta = FontName.parse(e.target.result)[0];
+				} catch (e) {
+					error.textContent = e.message;
+					metaArea.innerHTML = '';
+					console.error(e);
+					return;
+				}
+				//console.log(fontMeta);
+				error.textContent = '';
+				metaArea.innerHTML = '';
+				Object.keys(fontMeta).forEach(key => {
+					const value = fontMeta[key];
+					const el = document.createElement('tr');
+					el.innerHTML = `<td><strong>${key}</strong></td><td>${value}</td>`;
+					metaArea.appendChild(el);
+				});
+    });
+    //r.readAsArrayBuffer(myFile);
+    r.readAsDataURL(myFile);
+
+}
+//readFontFile("3PROT___.TTF");
+/************************* METHOD 2 ****************************/
+
+/************************* METHOD 2 ****************************/
+
+var input = document.getElementById("myFile");
+input.addEventListener("change",readFont, false );
+
+function readFont() {
+  if (this.files && this.files[0]) {
+    var myFile = this.files[0];
+	console.log(myFile);
+    //var reader = new FileReader();
+    var r = new FileReader();
+    r.addEventListener('load', function (e) {
+      //output.textContent = e.target.result;
+	  				const metaArea = document.getElementById('fontmeta');
+				const error = document.getElementById('error');
+				let fontMeta;
+				try {
+					fontMeta = FontName.parse(e.target.result)[0];
+				} catch (e) {
+					error.textContent = e.message;
+					metaArea.innerHTML = '';
+					console.error(e);
+					return;
+				}
+				//console.log(fontMeta);
+				error.textContent = '';
+				metaArea.innerHTML = '';
+				Object.keys(fontMeta).forEach(key => {
+					const value = fontMeta[key];
+					const el = document.createElement('tr');
+					el.innerHTML = `<td><strong>${key}</strong></td><td>${value}</td>`;
+					metaArea.appendChild(el);
+				});
+    });
+    r.readAsArrayBuffer(myFile);
+  }   
+}
+
+/************************* METHOD 2 ****************************/
+
+
+
+
+/************************* METHOD 3 ****************************/
+
+		window.onload = () => {
+			window.addEventListener('drop', onDrop, false);
+			window.addEventListener('dragenter', cancel, false);
+			window.addEventListener('dragleave', cancel, false);
+			window.addEventListener('dragover',  cancel, false);
+		};
+		const cancel = e => {
+			e.stopPropagation();
+			e.preventDefault();
+		};
+
+			function onDrop(e) {
+			//console.log(e);
+			cancel(e);
+			
+			var r = new FileReader();
+			r.onload = e => {
+				const metaArea = document.getElementById('fontmeta');
+				const error = document.getElementById('error');
+				let fontMeta;
+				try {
+					fontMeta = FontName.parse(e.target.result)[0];
+				} catch (e) {
+					error.textContent = e.message;
+					metaArea.innerHTML = '';
+					console.error(e);
+					return;
+				}
+				//console.log(fontMeta);
+				error.textContent = '';
+				metaArea.innerHTML = '';
+				Object.keys(fontMeta).forEach(key => {
+					const value = fontMeta[key];
+					const el = document.createElement('tr');
+					el.innerHTML = `<td><strong>${key}</strong></td><td>${value}</td>`;
+					metaArea.appendChild(el);
+				});
+			};
+			r.readAsArrayBuffer(e.dataTransfer.files[0]);
+		};
+		
+
+/*
+		const onDrop = e => {
+			cancel(e);
+			var r = new FileReader();
+			r.onload = e => {
+				const metaArea = document.getElementById('fontmeta');
+				const error = document.getElementById('error');
+			
+				let fontMeta;
+				try {
+					fontMeta = FontName.parse(e.target.result)[0];
+				} catch (e) {
+					error.textContent = e.message;
+					metaArea.innerHTML = '';
+					console.error(e);
+					return;
+				}
+				console.log(fontMeta);
+
+				error.textContent = '';
+				metaArea.innerHTML = '';
+				Object.keys(fontMeta).forEach(key => {
+					const value = fontMeta[key];
+					const el = document.createElement('tr');
+					el.innerHTML = `<td><strong>${key}</strong></td><td>${value}</td>`;
+					metaArea.appendChild(el);
+				});
+			};
+			r.readAsArrayBuffer(e.dataTransfer.files[0]);
+		};
+	*/
+	/************************* METHOD 3 ****************************/
+	</script>
+</body>
+</html>

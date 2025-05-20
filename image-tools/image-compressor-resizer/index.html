@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Resizer | Compresser</title>
+    <link rel="icon" href="icon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script
+      src="https://kit.fontawesome.com/7213b39e3a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3>Image Resizer - Compressor</h3>
+      <div class="container">
+        <div class="upload-box">
+          <span class="material-icons">close</span>
+          <input type="file" accept="image/*" hidden />
+          <img src="./upload-icon.svg" alt="" class="logo" />
+          <img src="" alt="" class="preview" />
+          <p>Browse File to Upload</p>
+        </div>
+        <div class="content">
+          <div class="row sizes">
+            <div class="column width">
+              <label>Width</label>
+              <input
+                type="text"
+                maxlength="4"
+                oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+              />
+            </div>
+            <div class="column height">
+              <label>Height</label>
+              <input
+                type="text"
+                maxlength="4"
+                oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+              />
+            </div>
+          </div>
+          <small class="validation">Invalid number value</small>
+
+          <div class="ratio">
+            <input type="checkbox" id="ratio" checked />
+            <label for="ratio">Lock aspect ratio</label>
+          </div>
+          <div class="row range">
+            <div class="column quality">
+              <p id="quality_value">Quality: 80% (Medium)</p>
+              <input
+                id="quality_range"
+                type="range"
+                min="10"
+                max="100"
+                step="1"
+                value="80"
+              />
+              <small class="helperText">
+                PNG is a lossless image compression format.
+              </small>
+            </div>
+            <div class="column file_type">
+              <p>File extension</p>
+              <select id="file_type">
+                <option value="jpg">.jpg</option>
+                <option value="png">.png</option>
+              </select>
+            </div>
+          </div>
+
+          <hr style="margin: 20px 0" />
+          <div class="row current">
+            <div class="column label">Current:</div>
+            <div class="column details">
+              <div class="pixels">800 x 515 pixels</div>
+              <div class="file_size">24.5 KB</div>
+              <div class="type">.jpg</div>
+            </div>
+          </div>
+          <div class="row new">
+            <div class="column label">New:</div>
+            <div class="column details">
+              <div class="pixels">800 x 515 pixels</div>
+              <div class="file_size">24.5 KB</div>
+              <div class="type">.jpg</div>
+            </div>
+          </div>
+          <button class="download-btn">Download</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer_top">
+          <h6>CONNECT<br />WITH US</h6>
+          <a href="https://hashmat-noorani.vercel.app/" title="portfolio">
+            <i class="fa fa-solid fa-user-gear fa-2x"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hashmat-noorani/"
+            title="linkedin"
+          >
+            <i class="fa fa-linkedin-square fa-2x"></i>
+          </a>
+          <a href="https://github.com/hashmat-noorani" title="github">
+            <i class="fa fa-github-square fa-2x"></i>
+          </a>
+          <a href="https://www.facebook.com/hwx.75" title="facebook">
+            <i class="fa fa-facebook-square fa-2x"></i>
+
+            <i class="fa-solid fa-link-simple fa-2x"></i>
+          </a>
+        </div>
+
+        <div class="footer_bottom">
+          <p>
+            © 2023 hashtech, Inc.<br />CREATED BY HASHMAT WANI<br />All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
