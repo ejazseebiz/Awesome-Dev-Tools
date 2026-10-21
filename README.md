@@ -4,8 +4,29 @@ A curated collection of high-quality tools for developers, designers, frontend e
 
 This list is organized to feel more like a large, searchable resource directory inspired by big curated repositories.
 
+## Downloadable Free Resources
+
+| Resource | Description |
+| :--- | :--- |
+| [Flaticon](https://www.flaticon.com/) | Large collection of free and premium icons for product UI, apps, and branding. |
+| [Font Awesome](https://fontawesome.com/) | Popular icon library with a solid free set for web and app interfaces. |
+| [Lucide](https://lucide.dev/) | Open-source icon set designed for clean UI, product design, and development. |
+| [Heroicons](https://heroicons.com/) | Free, hand-crafted SVG icons for modern interfaces and dashboards. |
+| [SVG Repo](https://www.svgrepo.com/) | Huge library of open-source SVG icons and vector assets. |
+| [Freepik](https://www.freepik.com/) | Free vectors, SVGs, mockups, and design assets for projects. |
+| [Undraw](https://undraw.co/illustrations) | Free open-source illustrations for landing pages and product mockups. |
+| [Pexels](https://www.pexels.com/) | Free stock photos and videos for websites, apps, and case studies. |
+| [Unsplash](https://unsplash.com/) | High-quality free photography for product mockups and marketing assets. |
+| [Colorlib](https://colorlib.com/wp/free-website-templates/) | Free website templates for business, portfolio, and SaaS websites. |
+| [BootstrapMade](https://bootstrapmade.com/) | Free and premium Bootstrap website templates and themes. |
+| [Start Bootstrap](https://startbootstrap.com/) | Free Bootstrap templates for landing pages, dashboards, and portfolios. |
+| [ThemeForest](https://themeforest.net/) | Marketplace with premium themes and templates, ideal for polished projects. |
+
+---
+
 ## Table of Contents
 
+- [Downloadable Free Resources](#downloadable-free-resources)
 - [Developer Tools](#developer-tools)
 - [Frontend & Web](#frontend--web)
 - [React Ecosystem](#react-ecosystem)
