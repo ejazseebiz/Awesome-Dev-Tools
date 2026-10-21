@@ -1,8 +1,27 @@
 # Awesome Tools for Developers, Designers & App Builders
 
+## Table of Contents
+
+- [Downloadable Free Resources](#downloadable-free-resources)
+- [Best Supported Online Tools](#best-supported-online-tools)
+- [Developer Tools](#developer-tools)
+- [Frontend & Web](#frontend--web)
+- [React Ecosystem](#react-ecosystem)
+- [Next.js](#nextjs)
+- [React Native](#react-native)
+- [Flutter](#flutter)
+- [Design & UI](#design--ui)
+- [AI & Productivity](#ai--productivity)
+- [APIs & Data](#apis--data)
+- [Hosting & Deployment](#hosting--deployment)
+- [Learning & Community](#learning--community)
+- [Quick Recommendations](#quick-recommendations)
+
 A curated collection of high-quality tools for developers, designers, frontend engineers, app developers, and modern product builders.
 
 This list is organized to feel more like a large, searchable resource directory inspired by big curated repositories.
+
+---
 
 ## Downloadable Free Resources
 
@@ -20,24 +39,58 @@ This list is organized to feel more like a large, searchable resource directory 
 | [Colorlib](https://colorlib.com/wp/free-website-templates/) | Free website templates for business, portfolio, and SaaS websites. |
 | [BootstrapMade](https://bootstrapmade.com/) | Free and premium Bootstrap website templates and themes. |
 | [Start Bootstrap](https://startbootstrap.com/) | Free Bootstrap templates for landing pages, dashboards, and portfolios. |
-| [ThemeForest](https://themeforest.net/) | Marketplace with premium themes and templates, ideal for polished projects. |
+| [ThemeForest](https://themeforest.net/) | Marketplace with premium themes and templates for polished projects. |
 
 ---
 
-## Table of Contents
+## Best Supported Online Tools
 
-- [Downloadable Free Resources](#downloadable-free-resources)
-- [Developer Tools](#developer-tools)
-- [Frontend & Web](#frontend--web)
-- [React Ecosystem](#react-ecosystem)
-- [Next.js](#nextjs)
-- [React Native](#react-native)
-- [Flutter](#flutter)
-- [Design & UI](#design--ui)
-- [AI & Productivity](#ai--productivity)
-- [APIs & Data](#apis--data)
-- [Hosting & Deployment](#hosting--deployment)
-- [Learning & Community](#learning--community)
+These are practical online tools that are highly useful for everyday design, productivity, PDF, and media work.
+
+### KDP & Print Tools
+
+| Resource | Description |
+| :--- | :--- |
+| KDP Word Search Generator | Generate custom printable word search puzzles for KDP activity books. |
+| KDP Puzzle Generator | Create number and logic puzzles for printable educational books. |
+| Maze Generator | Build unique printable mazes for kids and puzzle books. |
+| Sudoku Generator | Generate printable Sudoku puzzles with different difficulty levels. |
+
+### Image & Design Tools
+
+| Resource | Description |
+| :--- | :--- |
+| [Background Remover](https://www.remove.bg/) | Remove backgrounds from images quickly with AI for clean PNG outputs. |
+| [Photo Editor](https://www.photopea.com/) | Crop, resize, filter, and enhance images with an online editor. |
+| [Image Color Picker](https://www.google.com/search?q=color+picker+online) | Pick exact HEX, RGB, and HSL values from uploaded artwork. |
+| [SVG Background Generator](https://www.svgbackgrounds.com/) | Create reusable background patterns and SVG graphics for web projects. |
+| [Gradient Generator](https://cssgradient.io/) | Create linear, radial, and conic CSS gradients quickly. |
+
+### PDF & Document Tools
+
+| Resource | Description |
+| :--- | :--- |
+| [HTML to PDF](https://www.ilovepdf.com/html_to_pdf) | Convert HTML pages or markup into clean PDF documents. |
+| [PDF Compressor](https://www.ilovepdf.com/compress_pdf) | Reduce PDF file size for easier sharing and storage. |
+| [PDF Merger](https://www.ilovepdf.com/merge_pdf) | Merge multiple PDF files into one organized document. |
+| [PDF Form Filler](https://www.sejda.com/fill-pdf) | Fill and sign PDF forms directly in a browser. |
+
+### AI & Productivity Tools
+
+| Resource | Description |
+| :--- | :--- |
+| [Resume Builder](https://www.canva.com/resumes/) | Build polished resumes with guided layouts and export options. |
+| [AI Text Summarizer](https://chatgpt.com/) | Turn long text into clear short summaries with AI support. |
+| [Prompt Library](https://flowgpt.com/) | Browse reusable prompt templates for common AI workflows. |
+
+### Code & Media Tools
+
+| Resource | Description |
+| :--- | :--- |
+| [Video Trimmer](https://online-video-cutter.com/) | Trim and cut videos without installing desktop software. |
+| [CSS Formatter](https://www.cleancss.com/css-beautify/) | Beautify CSS for readability and consistency. |
+| [JSON Formatter](https://jsonformatter.org/) | Validate and format JSON quickly for debugging. |
+| [HTML to Markdown](https://www.helloworld.com/html-to-markdown) | Convert HTML content into clean Markdown syntax. |
 
 ---
 
