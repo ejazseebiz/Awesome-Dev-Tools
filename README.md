@@ -27,6 +27,8 @@ This list is organized to feel more like a large, searchable resource directory 
 
 | Resource | Description |
 | :--- | :--- |
+
+| [SVG Icons Stock](https://svgiconsstock.com/) | Large andfree collection of SVG icons for product UI, apps, and branding. |
 | [Flaticon](https://www.flaticon.com/) | Large collection of free and premium icons for product UI, apps, and branding. |
 | [Font Awesome](https://fontawesome.com/) | Popular icon library with a solid free set for web and app interfaces. |
 | [Lucide](https://lucide.dev/) | Open-source icon set designed for clean UI, product design, and development. |
