@@ -1,5 +1,63 @@
 # Awesome Tools for Developers, Designers & App Builders
 
+![GitHub Repo stars](https://img.shields.io/github/stars/ejazseebiz/Awesome-Dev-Tools?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ejazseebiz/Awesome-Dev-Tools?style=social)
+![Last updated](https://img.shields.io/badge/last%20updated-2026--10--22-blue)
+![Repo size](https://img.shields.io/github/repo-size/ejazseebiz/Awesome-Dev-Tools)
+
+A curated collection of high-quality tools for developers, designers, frontend engineers, app developers, and modern product builders.
+
+This list is organized to feel more like a large, searchable resource directory inspired by big curated repositories.
+
+## Why this repo exists
+
+This repository helps people discover practical tools across development, design, AI, productivity, and app building without wasting time searching across scattered websites.
+
+## Featured picks
+
+If you are just getting started, these are the most useful categories to explore first:
+
+- Frontend & web: React, Next.js, Tailwind CSS, Vite
+- Design & UI: Figma, Lucide, Coolors, Google Fonts
+- AI & productivity: ChatGPT, Copilot, Notion AI, Perplexity
+- Mobile app development: Flutter, React Native, Expo
+- Backend & deployment: Supabase, Prisma, Docker, Vercel
+
+## Recently updated
+
+- Improved repo structure and contribution guidance
+- Added clearer category organization
+- Highlighted top tools for different workflows
+- Included onboarding for contributors and issue suggestions
+
+## How to contribute
+
+We welcome suggestions for new tools, better categorization, and verified resources.
+
+You can contribute by:
+
+- suggesting a new tool via GitHub Issues
+- improving the README or categories
+- reporting broken links or outdated resources
+- adding tools for a missing niche or workflow
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for submission rules and PR guidance.
+
+## GitHub topics
+
+Suggested GitHub topics for discoverability:
+
+- awesome
+- developer-tools
+- productivity
+- react
+- nextjs
+- flutter
+- ai-tools
+- web-development
+- design-tools
+- app-development
+
 ## Table of Contents
 
 - [Downloadable Free Resources](#downloadable-free-resources)
@@ -16,10 +74,6 @@
 - [Hosting & Deployment](#hosting--deployment)
 - [Learning & Community](#learning--community)
 - [Quick Recommendations](#quick-recommendations)
-
-A curated collection of high-quality tools for developers, designers, frontend engineers, app developers, and modern product builders.
-
-This list is organized to feel more like a large, searchable resource directory inspired by big curated repositories.
 
 ---
 
@@ -342,3 +396,21 @@ If you're starting out, these are excellent choices:
 ## Final Note
 
 This repository is meant to act as a go-to tool hub for modern web, app, design, and product workflows. Feel free to expand it with more tools, communities, libraries, and resources as your stack evolves.
+
+If this collection helps you, please give the repository a star and share it with others in the developer community.
+
+---
+
+## Contribution welcome
+
+This repository is community-driven. To keep it useful and trustworthy, all suggestions should be high-quality, relevant, and actively maintained.
+
+If you want to add a new tool, open an issue using the template and include:
+
+- Tool name
+- Website or repo URL
+- Best use case
+- Category
+- Whether it is free, freemium, or paid
+- Why it deserves a place in this curated list
+
