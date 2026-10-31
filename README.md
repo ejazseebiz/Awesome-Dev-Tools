@@ -111,6 +111,7 @@ These are practical online tools that are highly useful for everyday design, pro
 | [TypeScript](https://www.typescriptlang.org/) | Typed JavaScript that improves maintainability and productivity. |
 | [Docker](https://www.docker.com/) | Container platform for building, shipping, and running apps. |
 | [Postman](https://www.postman.com/) | API testing and documentation platform for teams. |
+| [agent-qa](https://vostride.com) | Natural-language web and mobile testing with memidex persistent memory, validated self-improvement, and reviewable run evidence. |
 | [Insomnia](https://insomnia.rest/) | Alternative API client for REST, GraphQL, and web services. |
 | [Swagger](https://swagger.io/) | Tooling for documenting and testing APIs with OpenAPI. |
 | [ESLint](https://eslint.org/) | Linting and code-quality rules for JavaScript and TypeScript. |
