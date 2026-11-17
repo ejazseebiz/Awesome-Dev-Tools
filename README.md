@@ -48,6 +48,15 @@ This list is organized to feel more like a large, searchable resource directory 
 
 These are practical online tools that are highly useful for everyday design, productivity, PDF, and media work.
 
+### SVG Icons Stock Tools
+
+| Resource | Description |
+| :--- | :--- |
+| [Favicon Generator](https://svgiconsstock.com/tool/favicon-generator) | Create favicon and app icon assets for websites and branding projects. |
+| [SVG to PNG](https://svgiconsstock.com/tool/svg-to-png) | Convert SVG artwork into PNG files for web, app, and design workflows. |
+| [App Icon Generator](https://svgiconsstock.com/tool/app-icon-generator) | Generate polished app icons for mobile, desktop, and browser experiences. |
+| [SVG to 3D](https://svgiconsstock.com/tool/svg-to-3d) | Transform flat SVG icons into stylized 3D effects for branding and mockups. |
+
 ### KDP & Print Tools
 
 | Resource | Description |
@@ -317,7 +326,7 @@ These are practical online tools that are highly useful for everyday design, pro
 | Resource | Description |
 | :--- | :--- |
 | [freeCodeCamp](https://www.freecodecamp.org/) | Free coding curriculum and practice projects. |
-| [The Odin Project](https://www.theodinproject.com/) | Full-stack curriculum with strong project-based learning. |
+| [The Odin Project](https://theodinproject.com/) | Full-stack curriculum with strong project-based learning. |
 | [MDN Web Docs](https://developer.mozilla.org/) | Official documentation for HTML, CSS, JavaScript, and web APIs. |
 | [JavaScript.info](https://javascript.info/) | Detailed modern JavaScript tutorials and explanations. |
 | [Dev.to](https://dev.to/) | Community for developers with articles, discussions, and tutorials. |
